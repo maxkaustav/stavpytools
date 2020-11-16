@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def plot_images(self,image,label,cmap=None,save=False,destination="/"):
+def plot_images(image,label,cmap=None,save=False,destination="/"):
         """
         Args : 
         image: image array
