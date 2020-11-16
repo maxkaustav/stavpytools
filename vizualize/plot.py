@@ -16,3 +16,9 @@ def plot_images(image,label,cmap=None,save=False,destination="/"):
         plt.title("Label:{}".format(label))
         if save:
             plt.savefig(destination)
+
+def plot_inference_graph(data,labelx="",labely="",title_name=""):
+    plt.plot(data)
+    plt.xlabel(labelx)
+    plt.ylabel(labely)
+    plt.title(title_name)
