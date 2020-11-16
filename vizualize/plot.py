@@ -10,7 +10,7 @@ def plot_images(image,label,cmap=None,save=False,destination="/"):
         label: label of image
         cmap: None if color else gray for b/w.Default none
         save: Bool save or not(False)
-        destination: Default root.Else pass a string
+        destination: Default root.Else pass a string.
         """
         plt.imshow(image,cmap="gray")
         plt.title("Label:{}".format(label))
