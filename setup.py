@@ -1,7 +1,10 @@
 import setuptools
+try:
+    with open("README.md", "r") as f:
+        long_description = f.read()
+except FileNotFoundError:
+    long_description ="Not available"
 
-with open("README.md", "r") as f:
-    long_description = f.read()
 
 REQUIREMENTS = [
                 'numpy',
