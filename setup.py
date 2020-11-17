@@ -11,7 +11,8 @@ REQUIREMENTS = [
                 'pandas',
                 'matplotlib',
                 'seaborn',
-                'tensorflow >= 2.2'
+                'tensorflow >= 2.2',
+                'Fire'
                 ]
 setuptools.setup(
     name="stavpytools", # Replace with your own username
