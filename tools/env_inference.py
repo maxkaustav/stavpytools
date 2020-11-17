@@ -5,7 +5,7 @@ This tools are compatible with the following distributions:
 
 
 General python package
-Tensorflow
+Tensorflow-gpu
 Tensorflow Probability
 
 """
